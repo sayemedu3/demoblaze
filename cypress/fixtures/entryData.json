@@ -1,0 +1,15 @@
+{
+    "Items": [
+    {
+    "cat": "testData",
+    "desc": "This is a test Description.",
+    "id": 1,
+    "img": "imgs/galaxy_s6.jpg",
+    "price": 5000,
+    "title": "Samsung galaxy s6"
+    }
+    ],
+    "LastEvaluatedKey": {
+    "id": "1"
+    }
+    }

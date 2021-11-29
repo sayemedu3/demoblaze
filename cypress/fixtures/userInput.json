@@ -1,0 +1,54 @@
+{
+    "LoginValidUserInput":
+    [
+        {
+        "inputCSSSelector": "#loginusername",
+        "inputText": "testUser1994"
+        },
+        {
+        "inputCSSSelector": "#loginpassword",
+        "inputText": "testUser1994"
+        }
+    ],
+
+    "LoginInvalidUserInput":
+    [
+        {
+        "inputCSSSelector": "#loginusername",
+        "inputText": "invalidTestUser1994"
+        },
+        {
+        "inputCSSSelector": "#loginpassword",
+        "inputText": "invalidTestUser1994"
+        }
+    ],
+
+    "SignUpExistingUserInput":
+    [
+        {
+        "inputCSSSelector": "#sign-username",
+        "inputText": "testUser1994"
+        },
+        {
+        "inputCSSSelector": "#sign-password",
+        "inputText": "testUser1994"
+        }
+    ], 
+
+    "ContactUsUserInput":
+    [
+        
+        {
+        "inputCSSSelector": "#recipient-email",
+        "inputText": "testUser1994@gmail.com:"
+        },
+        {
+        "inputCSSSelector": "#recipient-name",
+        "inputText": "testUser1994"
+        }, 
+        {
+        "inputCSSSelector": "#message-text",
+        "inputText": "This is a test Contact Us Message."
+        }
+    ]
+}

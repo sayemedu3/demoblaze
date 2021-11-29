@@ -1,0 +1,61 @@
+{
+    "Login": {
+        "navListItemIndentifier": "#login2",
+        "modelLocator": "#logInModal",
+        "modalLabelIdentifier": "#logInModalLabel",
+        "modalLabelMessage": "Log in",
+        "formFields": [
+            {
+                "fieldCSSSelector": "label[for='log-name']",
+                "fieldText": "Username:"
+            },
+            {
+                "fieldCSSSelector": "div[id='logInModal'] div[class='modal-body'] div:nth-child(2) label:nth-child(1)",
+                "fieldText": "Password:"
+            }
+        ]
+    },
+    "SignUp": {
+        "navListItemIndentifier": "#signin2",
+        "modelLocator": "#signInModal",
+        "modalLabelIdentifier": "#signInModalLabel",
+        "modalLabelMessage": "Sign up",
+        "formFields": [
+            {
+                "fieldCSSSelector": "label[for='sign-username']",
+                "fieldText": "Username:"
+            },
+            {
+                "fieldCSSSelector": "label[for='sign-password']",
+                "fieldText": "Password:"
+            }
+        ]
+    },
+    "ContactUs": {
+        "navListItemIndentifier": "a[data-target='#exampleModal']",
+        "modelLocator": "#exampleModal",
+        "modalLabelIdentifier": "#exampleModalLabel",
+        "modalLabelMessage": "New message",
+        "formFields": [
+            {
+                "fieldCSSSelector": "div[id='exampleModal'] div[class='modal-content'] div:nth-child(1) label:nth-child(1)",
+                "fieldText": "Contact Email:"
+            },
+            {
+                "fieldCSSSelector": "div[id='exampleModal'] div[class='modal-body'] div:nth-child(2) label:nth-child(1)",
+                "fieldText": "Contact Name:"
+            },
+            {
+                "fieldCSSSelector": "label[for='message-text']",
+                "fieldText": "Message:"
+            }
+        ]
+    },
+    "AboutUs": {
+        "navListItemIndentifier": "a[data-target='#videoModal']",
+        "modelLocator": "#videoModal",
+        "modalLabelIdentifier": "#videoModalLabel",
+        "modalLabelMessage": "About us",
+        "formFields": []
+    }
+}

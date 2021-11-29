@@ -1,0 +1,11 @@
+
+  1) Test Sign up using alraedy registered user
+  2) Test Sign up using invalid and empty string in the Sign Up form
+  3) Test Sign In using already registered user
+  4) Test Sign In using non-register/doesn't exist user
+  5) Test if user is successfully able to Sign Out
+  6) Test Contact Us Form with Valid Sample Message
+  7) Test About Us and verifying video playback
+  8) Test Navigation Bar List Items
+  9) Call entries API and validate response and validate response object keys
+  10) Intercept Stub entries API response and validate UI response and validate response object keys
